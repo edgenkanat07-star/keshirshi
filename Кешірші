@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Кешірші 🥺</title>
+</head>
+<body style="text-align:center; font-family:sans-serif;">
+
+<h2>Мені кешіресің ба? 💔</h2>
+
+<img src=https://fotohosting.pro/i/54970.71EPiE<br><br>
+
+<button id="yes" style="font-size:20px;">Иә кешірем ❤️</button>
+<button id="no" style="font-size:20px;">Кешірмим 😡</button>
+
+<script>
+let size = 20;
+document.getElementById("no").onclick = function() {
+  size += 10;
+  document.getElementById("yes").style.fontSize = size + "px";
+}
+</script>
+
+</body>
+</html>
